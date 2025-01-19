@@ -1,0 +1,55 @@
+.pimg1, .pimg2, .pimg3{
+    position:relative;
+    background-postion:cover;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachement:fixed;
+    
+
+}
+.pimg1{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXY_OUjmBpwDg1OXYDud6BqupY_aLIu30TQw&s');
+    min-height:100%;
+}
+.pimg2{
+    background-image:url('image2.jpg');
+    min-height:400px;
+}
+.pimg3{
+    background-image:url('image3.jpg');
+    min-height:400px;
+}
+.section{
+    text-align:center;
+    padding:50px 80px;
+}
+.section-light{
+    background-color:white;
+    color:grey;
+}
+.section-dark{
+    background-color:black;
+    color:white;  
+}
+.ptext{
+    position:absolute;
+    top:50px;
+    width: 100px;
+    text-align: center;
+    color:black;
+    font-size:27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+
+}
+.ptext .border .trans{
+    background-color: transparent;
+
+
+}
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll;
+    } 
+}
